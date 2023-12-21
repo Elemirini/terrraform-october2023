@@ -5,6 +5,7 @@ resource "aws_key_pair" "bastion" {
 }
 
 
-output "key_type" {
+output key_type {
   value = aws_key_pair.bastion.key_type
 }
+
